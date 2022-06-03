@@ -33,10 +33,10 @@ Mainscreen_canvas.create_window(330,480,window=RegistrationNoField)
 Name_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="LightSalmon2",fg="White")
 Mainscreen_canvas.create_window(280,69,window=Name_entry)
 #ENTRY2
-Age_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="LightSalmon2",fg="White")
+Age_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="Salmon3",fg="White")
 Mainscreen_canvas.create_window(280,118,window=Age_entry)
 #ENTRY3
-Phone_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="LightSalmon2",fg="White")
+Phone_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="Salmon3",fg="White")
 Mainscreen_canvas.create_window(280,167,window=Phone_entry)
 #ENTRY4
 Email_entry=tk.Entry(Mainscreen,width=25,font=("LucidaConsole",12,"bold"),bg="LightSalmon2",fg="White")
